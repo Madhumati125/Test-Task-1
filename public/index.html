@@ -1,0 +1,28 @@
+<!doctype html>
+<html>
+  <head>
+    <title>UCCIS Dashboard</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <h1>🚦 UCCIS Dashboard</h1>
+
+    <h2>Zones</h2>
+    <div id="zones" class="grid"></div>
+
+    <h2>Actions</h2>
+    <select id="zoneSelect"></select>
+
+    <button onclick="triggerAction('Waste')">Waste</button>
+    <button onclick="triggerAction('Water')">Water</button>
+    <button onclick="triggerAction('Emergency')">Emergency</button>
+
+    <h2>Output</h2>
+    <div id="output">Click any action...</div>
+
+    <h2>Alerts</h2>
+    <div id="alerts"></div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,38 @@
+[
+    {
+        "name": "Thane",
+        "status": "Green",
+        "water": 80,
+        "waste": 20
+    },
+    {
+        "name": "Mumbai",
+        "status": "Yellow",
+        "water": 50,
+        "waste": 60
+    },
+    {
+        "name": "Navi Mumbai",
+        "status": "Red",
+        "water": 20,
+        "waste": 90
+    },
+    {
+        "name": "Zone 4",
+        "status": "Green",
+        "water": 75,
+        "waste": 25
+    },
+    {
+        "name": "Zone 5",
+        "status": "Yellow",
+        "water": 55,
+        "waste": 70
+    },
+    {
+        "name": "Zone 6",
+        "status": "Red",
+        "water": 30,
+        "waste": 85
+    }
+]
